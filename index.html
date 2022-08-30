@@ -8,20 +8,20 @@
   </head>
   <body>
     <header>
-      <h1>Hello, world! Welcome to my phone Hunter</h1>
+      <h1 class="text-center" >Hello, world! Welcome to my phone Hunter</h1>
     </header>
     <main class="container" >
       <section>
-          <div class="row row-cols-1 row-cols-md-4 g-4" id="phone-container">
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
+        <div class="mb-3 w-50">
+          <h4>Search Your Phone</h4>
+          <input type="text" class="form-control" id="input-field" placeholder="Phone Name">
+          <button class="btn btn-primary" id="btn-search" >Search</button>
+        </div>
+      </section>
+      <!-- Display Search Result -->
+      <section>
+          <div class="row row-cols-1 row-cols-md-4 g-2" id="phone-container">
+
           </div>
       </section>
     </main>
